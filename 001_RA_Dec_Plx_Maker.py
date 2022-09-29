@@ -42,7 +42,7 @@ for i in range(2):
 
 #col =column_stack((RA_list, Dec_list, plx_list))
 #savetxt('RA_Dec_Plx.txt', col,  fmt='%s')
-dict = {'RA': RA_list, 'Dec': Dec_list, 'plx': plx_list}  
+dict = {'RA': RA_list, 'Dec': Dec_list, 'plx': plx_list, 'pmRA': pmRA_list, 'pmDE': pmDE_list, 'Gmag': Gmag_list, 'BPMag': BPmag_list, 'RPmag': RPmag_list}  
        
 df = pd.DataFrame(dict) 
     
